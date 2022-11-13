@@ -1,2 +1,7 @@
 db.sqlite3
 logs/mysite.log
+config/__pycache__
+config/settings/__pycache__
+service/__pycache__
+service/migrations/__pycache__
+service/migrations
