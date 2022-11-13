@@ -1,0 +1,144 @@
+2022-11-11 18:44:01,653 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2022-11-11 18:44:06,936 [WARNING] django.request: Not Found: /static/service/index.css
+2022-11-11 18:44:23,710 [WARNING] django.request: Not Found: /static/service/index.css
+2022-11-11 18:44:27,448 [WARNING] django.request: Not Found: /static/admin/css/base.css
+2022-11-11 18:44:27,449 [WARNING] django.request: Not Found: /static/admin/css/dark_mode.css
+2022-11-11 18:44:27,451 [WARNING] django.request: Not Found: /static/admin/css/nav_sidebar.css
+2022-11-11 18:44:27,452 [WARNING] django.request: Not Found: /static/admin/css/login.css
+2022-11-11 18:44:27,454 [WARNING] django.request: Not Found: /static/admin/css/responsive.css
+2022-11-11 18:44:27,455 [WARNING] django.request: Not Found: /static/admin/js/nav_sidebar.js
+2022-11-11 18:44:31,575 [WARNING] django.request: Not Found: /
+2022-11-11 18:47:01,722 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2022-11-11 18:47:04,117 [WARNING] django.request: Not Found: /
+2022-11-11 18:47:08,451 [WARNING] django.request: Not Found: /static/service/index.css
+2022-11-11 18:47:17,425 [WARNING] django.request: Not Found: /static/admin/css/base.css
+2022-11-11 18:47:17,427 [WARNING] django.request: Not Found: /static/admin/css/dark_mode.css
+2022-11-11 18:47:17,430 [WARNING] django.request: Not Found: /static/admin/css/nav_sidebar.css
+2022-11-11 18:47:17,431 [WARNING] django.request: Not Found: /static/admin/css/login.css
+2022-11-11 18:47:17,433 [WARNING] django.request: Not Found: /static/admin/css/responsive.css
+2022-11-11 18:47:17,435 [WARNING] django.request: Not Found: /static/admin/js/nav_sidebar.js
+2022-11-11 18:47:21,352 [WARNING] django.request: Not Found: /static/admin/css/base.css
+2022-11-11 18:47:21,353 [WARNING] django.request: Not Found: /static/admin/css/dark_mode.css
+2022-11-11 18:47:21,354 [WARNING] django.request: Not Found: /static/admin/css/nav_sidebar.css
+2022-11-11 18:47:21,356 [WARNING] django.request: Not Found: /static/admin/css/login.css
+2022-11-11 18:47:21,357 [WARNING] django.request: Not Found: /static/admin/css/responsive.css
+2022-11-11 18:47:21,358 [WARNING] django.request: Not Found: /static/admin/js/nav_sidebar.js
+2022-11-11 18:47:30,553 [WARNING] django.request: Not Found: /static/service/index.css
+2022-11-11 18:47:32,103 [INFO] django.utils.autoreload: C:\Users\dfwtt\OneDrive\πŸ≈¡ »≠∏È\git\srvm2\config\settings.py changed, reloading.
+2022-11-11 18:47:32,595 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2022-11-11 18:47:35,976 [INFO] django.utils.autoreload: C:\Users\dfwtt\OneDrive\πŸ≈¡ »≠∏È\git\srvm2\config\settings.py changed, reloading.
+2022-11-11 18:47:36,435 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2022-11-11 18:47:55,124 [INFO] django.utils.autoreload: C:\Users\dfwtt\OneDrive\πŸ≈¡ »≠∏È\git\srvm2\config\settings.py changed, reloading.
+2022-11-11 18:47:55,647 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2022-11-11 19:19:02,087 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2022-11-11 19:19:05,131 [WARNING] django.request: Not Found: /
+2022-11-11 19:19:05,288 [WARNING] django.request: Not Found: /favicon.ico
+2022-11-11 19:19:12,400 [WARNING] django.request: Not Found: /static/service/index.css
+2022-11-11 19:20:28,913 [INFO] django.utils.autoreload: C:\Users\dfwtt\OneDrive\πŸ≈¡ »≠∏È\git\srvm2\config\settings.py changed, reloading.
+2022-11-11 19:20:29,938 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2022-11-11 19:20:34,703 [INFO] django.utils.autoreload: C:\Users\dfwtt\OneDrive\πŸ≈¡ »≠∏È\git\srvm2\config\settings.py changed, reloading.
+2022-11-11 19:20:35,730 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2022-11-11 19:20:36,140 [WARNING] django.request: Not Found: /static/service/index.css
+2022-11-11 19:20:38,511 [WARNING] django.request: Not Found: /static/service/index.css
+2022-11-11 19:20:42,187 [WARNING] django.request: Not Found: /static/admin/css/base.css
+2022-11-11 19:20:42,193 [WARNING] django.request: Not Found: /static/admin/css/dark_mode.css
+2022-11-11 19:20:42,196 [WARNING] django.request: Not Found: /static/admin/css/nav_sidebar.css
+2022-11-11 19:20:42,200 [WARNING] django.request: Not Found: /static/admin/css/login.css
+2022-11-11 19:20:42,203 [WARNING] django.request: Not Found: /static/admin/css/responsive.css
+2022-11-11 19:20:42,206 [WARNING] django.request: Not Found: /static/admin/js/nav_sidebar.js
+2022-11-11 19:20:58,511 [INFO] django.utils.autoreload: C:\Users\dfwtt\OneDrive\πŸ≈¡ »≠∏È\git\srvm2\config\settings.py changed, reloading.
+2022-11-11 19:23:30,685 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2022-11-11 19:23:38,512 [INFO] django.utils.autoreload: C:\Users\dfwtt\OneDrive\πŸ≈¡ »≠∏È\git\srvm2\config\settings.py changed, reloading.
+2022-11-11 19:23:39,443 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2022-11-11 19:23:40,578 [WARNING] django.request: Not Found: /
+2022-11-11 19:23:40,782 [WARNING] django.request: Not Found: /favicon.ico
+2022-11-11 19:23:52,700 [WARNING] django.request: Not Found: /static/service/index.css
+2022-11-11 19:23:56,431 [WARNING] django.request: Not Found: /static/admin/css/base.css
+2022-11-11 19:23:56,442 [WARNING] django.request: Not Found: /static/admin/css/dark_mode.css
+2022-11-11 19:23:56,447 [WARNING] django.request: Not Found: /static/admin/css/login.css
+2022-11-11 19:23:56,447 [WARNING] django.request: Not Found: /static/admin/css/nav_sidebar.css
+2022-11-11 19:23:56,447 [WARNING] django.request: Not Found: /static/admin/css/responsive.css
+2022-11-11 19:23:56,447 [WARNING] django.request: Not Found: /static/admin/js/nav_sidebar.js
+2022-11-11 19:24:03,278 [INFO] django.utils.autoreload: C:\Users\dfwtt\OneDrive\πŸ≈¡ »≠∏È\git\srvm2\config\settings.py changed, reloading.
+2022-11-11 19:24:04,213 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2022-11-11 19:24:20,381 [INFO] django.utils.autoreload: C:\Users\dfwtt\OneDrive\πŸ≈¡ »≠∏È\git\srvm2\config\settings.py changed, reloading.
+2022-11-11 19:24:21,286 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2022-11-11 19:24:27,798 [WARNING] django.request: Not Found: /static/service/index.css
+2022-11-11 19:24:31,531 [WARNING] django.request: Not Found: /static/admin/css/base.css
+2022-11-11 19:24:31,535 [WARNING] django.request: Not Found: /static/admin/css/dark_mode.css
+2022-11-11 19:24:31,538 [WARNING] django.request: Not Found: /static/admin/css/nav_sidebar.css
+2022-11-11 19:24:31,540 [WARNING] django.request: Not Found: /static/admin/css/login.css
+2022-11-11 19:24:31,546 [WARNING] django.request: Not Found: /static/admin/css/responsive.css
+2022-11-11 19:24:31,551 [WARNING] django.request: Not Found: /static/admin/js/nav_sidebar.js
+2022-11-11 19:25:19,154 [INFO] django.utils.autoreload: C:\Users\dfwtt\OneDrive\πŸ≈¡ »≠∏È\git\srvm2\config\settings.py changed, reloading.
+2022-11-11 19:25:20,071 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2022-11-11 19:25:26,087 [WARNING] django.request: Not Found: /
+2022-11-11 19:25:26,368 [WARNING] django.request: Not Found: /favicon.ico
+2022-11-11 19:25:29,485 [WARNING] django.request: Not Found: /
+2022-11-11 19:25:32,943 [WARNING] django.request: Not Found: /static/admin/css/base.css
+2022-11-11 19:25:32,945 [WARNING] django.request: Not Found: /static/admin/css/dark_mode.css
+2022-11-11 19:25:32,950 [WARNING] django.request: Not Found: /static/admin/css/nav_sidebar.css
+2022-11-11 19:25:32,953 [WARNING] django.request: Not Found: /static/admin/css/login.css
+2022-11-11 19:25:32,956 [WARNING] django.request: Not Found: /static/admin/css/responsive.css
+2022-11-11 19:25:32,959 [WARNING] django.request: Not Found: /static/admin/js/nav_sidebar.js
+2022-11-11 19:25:37,811 [WARNING] django.request: Not Found: /static/admin/css/base.css
+2022-11-11 19:25:37,814 [WARNING] django.request: Not Found: /static/admin/css/dark_mode.css
+2022-11-11 19:25:37,814 [WARNING] django.request: Not Found: /static/admin/css/nav_sidebar.css
+2022-11-11 19:25:37,817 [WARNING] django.request: Not Found: /static/admin/css/login.css
+2022-11-11 19:25:37,817 [WARNING] django.request: Not Found: /static/admin/css/responsive.css
+2022-11-11 19:25:37,820 [WARNING] django.request: Not Found: /static/admin/js/nav_sidebar.js
+2022-11-11 19:25:41,316 [WARNING] django.request: Not Found: /static/admin/css/base.css
+2022-11-11 19:25:41,319 [WARNING] django.request: Not Found: /static/admin/css/dark_mode.css
+2022-11-11 19:25:41,322 [WARNING] django.request: Not Found: /static/admin/css/nav_sidebar.css
+2022-11-11 19:25:41,322 [WARNING] django.request: Not Found: /static/admin/css/dashboard.css
+2022-11-11 19:25:41,324 [WARNING] django.request: Not Found: /static/admin/css/responsive.css
+2022-11-11 19:25:41,325 [WARNING] django.request: Not Found: /static/admin/js/nav_sidebar.js
+2022-11-11 19:25:46,826 [WARNING] django.request: Not Found: /static/service/index.css
+2022-11-11 19:27:34,077 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2022-11-11 19:27:39,174 [WARNING] django.request: Not Found: /
+2022-11-11 19:27:39,226 [WARNING] django.request: Not Found: /favicon.ico
+2022-11-11 19:27:42,403 [WARNING] django.request: Not Found: /static/admin/css/base.css
+2022-11-11 19:27:42,409 [WARNING] django.request: Not Found: /static/admin/css/dark_mode.css
+2022-11-11 19:27:42,410 [WARNING] django.request: Not Found: /static/admin/css/login.css
+2022-11-11 19:27:42,410 [WARNING] django.request: Not Found: /static/admin/css/nav_sidebar.css
+2022-11-11 19:27:42,414 [WARNING] django.request: Not Found: /static/admin/css/responsive.css
+2022-11-11 19:27:42,416 [WARNING] django.request: Not Found: /static/admin/js/nav_sidebar.js
+2022-11-11 19:27:45,690 [WARNING] django.request: Not Found: /static/service/index.css
+2022-11-11 19:55:56,994 [WARNING] django.request: Not Found: /static/service/index.css
+2022-11-11 19:55:57,240 [WARNING] django.request: Not Found: /favicon.ico
+2022-11-11 19:56:03,995 [WARNING] django.request: Not Found: /static/admin/css/base.css
+2022-11-11 19:56:03,998 [WARNING] django.request: Not Found: /static/admin/css/dark_mode.css
+2022-11-11 19:56:04,003 [WARNING] django.request: Not Found: /static/admin/css/login.css
+2022-11-11 19:56:04,004 [WARNING] django.request: Not Found: /static/admin/css/nav_sidebar.css
+2022-11-11 19:56:04,012 [WARNING] django.request: Not Found: /static/admin/js/nav_sidebar.js
+2022-11-11 19:56:04,012 [WARNING] django.request: Not Found: /static/admin/css/responsive.css
+2022-11-11 20:13:11,880 [WARNING] django.request: Not Found: /static/admin/css/base.css
+2022-11-11 20:13:11,886 [WARNING] django.request: Not Found: /static/admin/css/login.css
+2022-11-11 20:13:11,887 [WARNING] django.request: Not Found: /static/admin/css/nav_sidebar.css
+2022-11-11 20:13:11,888 [WARNING] django.request: Not Found: /static/admin/css/dark_mode.css
+2022-11-11 20:13:11,889 [WARNING] django.request: Not Found: /static/admin/css/responsive.css
+2022-11-11 20:13:11,890 [WARNING] django.request: Not Found: /static/admin/js/nav_sidebar.js
+2022-11-11 20:13:15,753 [WARNING] django.request: Not Found: /static/service/index.css
+2022-11-12 18:46:57,356 [WARNING] django.request: Not Found: /static/service/index.css
+2022-11-12 18:46:57,435 [WARNING] django.request: Not Found: /favicon.ico
+2022-11-12 18:47:02,748 [WARNING] django.request: Not Found: /static/admin/css/base.css
+2022-11-12 18:47:02,755 [WARNING] django.request: Not Found: /static/admin/css/dark_mode.css
+2022-11-12 18:47:02,756 [WARNING] django.request: Not Found: /static/admin/css/login.css
+2022-11-12 18:47:02,756 [WARNING] django.request: Not Found: /static/admin/css/nav_sidebar.css
+2022-11-12 18:47:02,757 [WARNING] django.request: Not Found: /static/admin/css/responsive.css
+2022-11-12 18:47:02,759 [WARNING] django.request: Not Found: /static/admin/js/nav_sidebar.js
+2022-11-12 18:47:06,883 [WARNING] django.request: Not Found: /
+2022-11-14 02:06:15,204 [WARNING] django.request: Not Found: /
+2022-11-14 02:06:15,205 [WARNING] django.request: Not Found: /
+2022-11-14 02:06:15,507 [WARNING] django.request: Not Found: /favicon.ico
+2022-11-14 02:06:19,767 [WARNING] django.request: Not Found: /static/admin/css/nav_sidebar.css
+2022-11-14 02:06:19,806 [WARNING] django.request: Not Found: /static/admin/css/base.css
+2022-11-14 02:06:19,814 [WARNING] django.request: Not Found: /static/admin/css/dark_mode.css
+2022-11-14 02:06:19,815 [WARNING] django.request: Not Found: /static/admin/css/responsive.css
+2022-11-14 02:06:19,821 [WARNING] django.request: Not Found: /static/admin/js/nav_sidebar.js
+2022-11-14 02:06:19,822 [WARNING] django.request: Not Found: /static/admin/css/login.css
+2022-11-14 02:06:22,727 [WARNING] django.request: Not Found: /static/service/index.css
+2022-11-14 02:30:56,075 [WARNING] django.request: Not Found: /
+2022-11-14 02:32:27,476 [WARNING] django.request: Not Found: /
+2022-11-14 02:33:31,379 [WARNING] django.request: Not Found: /
+2022-11-14 02:45:13,677 [WARNING] django.request: Not Found: /
