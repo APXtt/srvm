@@ -9,3 +9,4 @@ config/__pycache__/
 logs/
 service/__pycache__/
 .env
+code/.keep
