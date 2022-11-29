@@ -1,0 +1,97 @@
+/* 
+1440x1024
+%는 위의 크기 기준
+*/
+
+body {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    column-gap: 1.39%;
+    row-gap: 1.39%;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Gowun Dodum', sans-serif;
+    color:#105517;
+}
+@media (max-width: 768px){
+    body {
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+    }
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+/* font size start */
+.px100{
+    font-size: 100px;
+}
+
+.px80{
+    font-size: 80px;
+}
+
+.px50{
+    font-size: 50px;
+}
+
+.px40 {
+    font-size: 40px;
+}
+
+.px30 {
+    font-size: 30px;
+}
+
+.px24{
+    font-size: 24px;
+}
+
+.px15 {
+    font-size: 15px;
+}
+/* font size end */
+
+
+/* color start */
+.main_color {
+    color: #105517;
+}
+
+.sub1_color {
+    color: #080D1E;
+}
+
+.sub2_color {
+    color: white;
+}
+
+.button_color {
+    color: white;
+    background: #105517;
+    transition: all 0.4s;
+}
+.button_color:hover{
+    letter-spacing: 2px;
+    background: #0A4410;
+}
+
+.NavButton {
+    transition: all 0.2s;
+}
+.NavButton:hover {
+    color: #0A4410;
+    font-weight: bold;
+}
+/* color end */
