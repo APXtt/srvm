@@ -1,0 +1,45 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="{% static 'service/normalize.css' %}" rel="stylesheet" />
+    <link href="{% static 'service/reset.css' %}" rel="stylesheet" />
+    <link href="{% static 'service/base.css' %}" rel="stylesheet" />
+    <link href="{% static 'service/login.css' %}" rel="stylesheet" />
+    <!-- font start -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font end -->
+  </head>
+  <body>
+    <h1 class="MainTitle center px100">SRVM</h1>
+
+    <form class="loginForm px24 sub1_color">
+      <ul>
+        <li>
+          <span>
+            <input placeholder="Username" class="loginFormInput" required />
+          </span>
+        </li>
+        <li>
+          <input
+            placeholder="Password"
+            class="loginFormInput sub1_color"
+            required
+          />
+        </li>
+        <li>
+          <button class="loginFormButton button_color" style="cursor: pointer">
+            Login
+          </button>
+        </li>
+      </ul>
+    </form>
+  </body>
+</html>
