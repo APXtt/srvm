@@ -28,6 +28,7 @@ DEBUG = True
 # Application definition
 
 INSTALLED_APPS = [
+    'base.apps.BaseConfig',
     'service.apps.ServiceConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -183,3 +184,7 @@ LOGGING = {
         },
     }
 }
+
+LOGIN_REDIRECT_URL = '/service/home'
+
+LOGOUT_REDIRECT_URL = '/'

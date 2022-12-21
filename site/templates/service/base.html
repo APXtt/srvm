@@ -1,0 +1,20 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SRVM</title>
+    <link href="{% static 'service/normalize.css' %}" rel="stylesheet" />
+    <link href="{% static 'service/reset.css' %}" rel="stylesheet" />
+    <link href="{% static 'service/base.css' %}" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    {% block content %} {% endblock %}
+  </body>
+</html>

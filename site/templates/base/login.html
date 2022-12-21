@@ -1,4 +1,4 @@
-{% load static %}
+{% load static %} {% block content %}
 
 <!DOCTYPE html>
 <html lang="ko">
@@ -9,7 +9,7 @@
     <link href="{% static 'service/normalize.css' %}" rel="stylesheet" />
     <link href="{% static 'service/reset.css' %}" rel="stylesheet" />
     <link href="{% static 'service/base.css' %}" rel="stylesheet" />
-    <link href="{% static 'service/login.css' %}" rel="stylesheet" />
+    <link href="{% static 'base/login.css' %}" rel="stylesheet" />
     <!-- font start -->
     <link
       href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap"
@@ -20,18 +20,34 @@
   <body>
     <h1 class="MainTitle center px100">SRVM</h1>
 
-    <form class="loginForm px24 sub1_color">
+    <form
+      class="loginForm px24 sub1_color"
+      method="post"
+      action="{% url 'base:login' %}"
+    >
+      {% csrf_token %}
       <ul>
         <li>
           <span>
-            <input placeholder="Username" class="loginFormInput" required />
+            <input
+              placeholder="Username"
+              class="loginFormInput"
+              required
+              value="{{ form.username.value|default_if_none:'' }}"
+              name="username"
+              id="username"
+            />
           </span>
         </li>
         <li>
           <input
+            type="password"
             placeholder="Password"
             class="loginFormInput sub1_color"
             required
+            value="{{ form.password.value|default_if_none:'' }}"
+            name="password"
+            id="password"
           />
         </li>
         <li>
@@ -43,3 +59,5 @@
     </form>
   </body>
 </html>
+
+{% endblock %}

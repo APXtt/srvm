@@ -1,0 +1,52 @@
+{% load static %} {% extends 'base.html' %}
+<h1 class="MainTitle center px80">SRVM</h1>
+<span class="MainSub">
+  <h2 class="MainSubTitle px40 sub1_color">대여 상품 목록</h2>
+  <nav>
+    <ul class="MainNavigation px15 sub1_color">
+      <span class="NavButton" style="cursor: pointer">Home</span>
+      <span>/</span>
+      {% if user.is_authenticated %}
+      <span class="NavButton" style="cursor: pointer"
+        ><a href="{% url 'base:login' %}">Logout</a></span
+      >
+      {% endif %}
+    </ul>
+  </nav>
+</span>
+
+<main class="productArea">
+  <div class="productElement">
+    <div class="item">
+      <ul>
+        <li>
+          <h3 class="productName px30">스마트폰</h3>
+          <h4 class="productLocation px15 sub1_color">영남이공대점</h4>
+          <button class="productButton button_color" style="cursor: pointer">
+            <span>1만원</span><span>/day</span>
+          </button>
+          <img
+            class="productImg"
+            src="{% static 'service/img/sample1.png' %}"
+          />
+        </li>
+      </ul>
+    </div>
+    <div class="item">
+      <ul>
+        <li>
+          <h3 class="productName px30">마우스</h3>
+          <h4 class="productLocation px15 sub1_color">영남이공대점</h4>
+          <button class="productButton button_color" style="cursor: pointer">
+            <span>1만원</span><span>/day</span>
+          </button>
+          <img
+            class="productImg"
+            src="{% static 'service/img/sample2.png' %}"
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
+</main>
+{% endblock %}
