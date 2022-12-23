@@ -8,7 +8,7 @@ from _thread import *
 from werkzeug.utils import secure_filename
 from datetime import datetime,timedelta
 
-server_ip='220.67.3.185'
+server_ip='1.234.44.132'
 
 def socket_client_add(req,pd_name):
     HOST = server_ip
