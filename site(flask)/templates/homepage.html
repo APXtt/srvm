@@ -1,0 +1,70 @@
+{%with messages = get_flashed_messages()%}
+        {%if messages %}
+                <script type="text/javascript">
+                        alert("{{messages[-1]}}");
+                </script>
+        {%endif%}
+{%endwith%}
+
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/homepage.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/reset.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+    
+    <!-- font start -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font end -->
+  </head>
+  <body>
+    <h1 class="MainTitle center px80">SRVM</h1>
+    <span class="MainSub">
+      <h2 class="MainSubTitle px40 sub1_color">대여 상품 목록</h2>
+      <nav>
+        <ul class="MainNavigation px15 sub1_color">
+          <button onclick="location.href='/mypage'"><span>Mypage</span></button>
+          <span>/</span>
+          {% if session["user"] == "admin" %}
+          <button onclick="location.href='/add'"><span>상품등록</span></button> 
+          <span>/</span>
+          {% endif %}
+          <button onclick="location.href='/logout'"><span>Logout</span></button> 
+        </ul>
+      </nav>
+    </span>
+
+    <main class="productArea">
+      <div class="productElement">
+        {% for i in productList: %}
+        <form action="/rentalAction" method="POST">
+        <div class="item">
+          <ul>
+            <li>
+      <br>
+              <h3 class="productName px30">{{ i[0] }}</h3>
+              <h4 class="productLocation px15 sub1_color">영남이공대점</h4>
+
+              <input type="hidden" name="pd_name" value="{{ i[0] }}" >
+              <button class="productButton button_color">
+                <span>{{ i[4] }}원</span><span>/day</span>
+              </button>
+              <img class="productImg" src="{{url_for('static', filename='../static/src/img/sample1.png')}}" />
+            </li>
+          </ul>
+        </div>
+        </form><br>
+        {% endfor %}
+      </div>
+      
+    </main>
+
+  </body>
+</html>

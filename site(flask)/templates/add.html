@@ -1,0 +1,49 @@
+{%with messages = get_flashed_messages()%}
+        {%if messages %}
+                <script type="text/javascript">
+                        alert("{{messages[-1]}}");
+                </script>
+        {%endif%}
+{%endwith%}
+
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/reset.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}">
+      
+    <!-- font start -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font end -->
+  </head>
+  <body>
+    <h1 class="MainTitle center px100">SRVM</h1>
+
+    <form action="/addAction" method="POST" class="loginForm px24 sub1_color" enctype = "multipart/form-data">
+      <ul>
+
+        <li>
+          <span>
+            추가할 상품을 넣고 추가완료 창이 뜰 때까지 대기해주세요.
+            <br><br>
+            <input placeholder="pd_name" name="pd_name" id="user" class="loginFormInput" required />
+            <input placeholder="pd_price" name="pd_price" id="user" class="loginFormInput" required />
+          </span>
+        </li>
+        <br><li>
+          <button type="submit" class="loginFormButton button_color">add</button>
+        </li>
+      </ul>
+      <br><button onclick="location.href='/rental'">Home</button>
+    </form>
+
+  </body>
+</html>
